@@ -1,2 +1,2 @@
 # Data-Structure-Lab
-All the ICE 2202 Data Structure Lab files is stored here.
+All the ICE 2202 Data Structure Lab files are stored here.
