@@ -11,4 +11,4 @@
 
 **[Declare an array and check if an element k is present in the array. If yes then print the position of the array otherwise print "-1"](https://github.com/T4H5iN/Data-Structure-Lab/blob/main/LAB2/Lab2c.cpp)**
 
-## Lab 2 [05-02-2024]
+## Lab 3 [05-02-2024]
