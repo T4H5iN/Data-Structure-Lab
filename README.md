@@ -21,6 +21,10 @@
 
 - **[Declare an array and check if an element k is present in the array. If yes then print the position of the array otherwise print "-1".](https://github.com/T4H5iN/Data-Structures/blob/main/LAB2/Lab2c.cpp)**</details>
 
+<details><summary>Thoery</summary>
+
+- **[Inserting an element at the beginning, at the middle and at the end in a given array](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class3a.cpp)**</details>
+
 ## [05-02-2024]
 
 <details><summary>Lab</summary>
