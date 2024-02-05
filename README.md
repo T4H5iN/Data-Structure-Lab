@@ -23,7 +23,7 @@
 
 <details><summary>Thoery</summary>
 
-- **[Inserting an element at the beginning, at the middle and at the end in a given array](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class3a.cpp)**</details>
+- **[Inserting an element at the beginning, at the middle and at the end of a given array](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class3a.cpp)**</details>
 
 ## [01-02-2024]
 
