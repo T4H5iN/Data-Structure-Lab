@@ -29,7 +29,8 @@
 
 <details><summary>Thoery</summary>
 
-- **[Delete an element from a given array](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class4a.cpp)**</details>
+- **[Delete an element from a given array](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class4a.cpp)**
+- **[Find the minimum value from a given array and find the position of it.](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class4b.cpp)**</details>
 
 ## [05-02-2024]
 
