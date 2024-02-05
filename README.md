@@ -1,18 +1,18 @@
-# Data-Structure-Lab
-**All the ICE 2202 Data Structure Lab files are stored here.**
+# Data-Structures
+**All the Data Structure Theory and Lab files are stored here.**
 
 ## Lab 1 [22-01-2024]
 
-**[Find all the prime numbers between 1 and 500](https://github.com/T4H5iN/Data-Structures/blob/main/LAB1/Lab1a.cpp)**
+**[Find all the prime numbers between 1 and 500.](https://github.com/T4H5iN/Data-Structures/blob/main/LAB1/Lab1a.cpp)**
 
 ## Lab 2 [29-01-2024]
 
-**[Find the sum of all given numbers, odd numbers and even numbers](https://github.com/T4H5iN/Data-Structures/blob/main/LAB2/Lab2a.cpp)**
+**[Find the sum of all given numbers, odd numbers and even numbers.](https://github.com/T4H5iN/Data-Structures/blob/main/LAB2/Lab2a.cpp)**
 
-**[Declare an array and ask the user how many queries the user wants to do to find the users desired element in the array. If the element is present in the array then print "Yes" otherwise print "No"](https://github.com/T4H5iN/Data-Structures/blob/main/LAB2/Lab2b.cpp)**
+**[Declare an array and ask the user how many queries the user wants to do to find the users desired element in the array. If the element is present in the array then print "Yes" otherwise print "No".](https://github.com/T4H5iN/Data-Structures/blob/main/LAB2/Lab2b.cpp)**
 
-**[Declare an array and check if an element k is present in the array. If yes then print the position of the array otherwise print "-1"](https://github.com/T4H5iN/Data-Structures/blob/main/LAB2/Lab2c.cpp)**
+**[Declare an array and check if an element k is present in the array. If yes then print the position of the array otherwise print "-1".](https://github.com/T4H5iN/Data-Structures/blob/main/LAB2/Lab2c.cpp)**
 
 ## Lab 3 [05-02-2024]
 
-**[Given a sorted array of n (≤ 10^7) random integers and Q (≤ 10^5) queries. In each query, you are provided with a value of k. Now for each query, print the position of k in the array or "-1" if k is not present in the arrary. Record the number of iterations required to solve the problem. ](https://github.com/T4H5iN/Data-Structures/blob/main/LAB3/Lab3a.cpp)**
+**[Given a sorted array of n (≤ 10^7) random integers and Q (≤ 10^5) queries. In each query, you are provided with a value of k. Now for each query, print the position of k in the array or "-1" if k is not present in the arrary. Record the number of iterations required to solve the problem.](https://github.com/T4H5iN/Data-Structures/blob/main/LAB3/Lab3a.cpp)**
