@@ -9,7 +9,7 @@
 
 <details><summary>Thoery</summary>
 
-- **[Find GCD of all the given numbers](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class1a.cpp)**</details>
+- **[Find GCD of all the given numbers.](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class1a.cpp)**</details>
 
 ## [29-01-2024]
 
@@ -23,13 +23,13 @@
 
 <details><summary>Thoery</summary>
 
-- **[Inserting an element at the beginning, at the middle and at the end of a given array](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class3a.cpp)**</details>
+- **[Inserting an element at the beginning, at the middle and at the end of a given array.](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class3a.cpp)**</details>
 
 ## [01-02-2024]
 
 <details><summary>Thoery</summary>
 
-- **[Delete an element from a given array](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class4a.cpp)**
+- **[Delete an element from a given array.](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class4a.cpp)**
 - **[Find the minimum value from a given array and find the position of it.](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class4b.cpp)**</details>
 
 ## [05-02-2024]
