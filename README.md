@@ -1,14 +1,15 @@
 # Data-Structures
 **All the Data Structure Theory and Lab files are stored here.**
 
-
 ## [22-01-2024]
 
 <details><summary>Lab</summary>
   
 - **[Find all the prime numbers between 1 and 500.](https://github.com/T4H5iN/Data-Structures/blob/main/LAB1/Lab1a.cpp)**</details>
 
-<details><summary>Thoery</summary></details>
+<details><summary>Thoery</summary>
+
+- **[Find GCD of all the given numbers](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class1a.cpp)</details>
 
 ## [29-01-2024]
 
