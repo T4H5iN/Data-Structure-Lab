@@ -3,6 +3,8 @@
 
 ## Lab 1 [22-01-2024]
 
+**[Find all the prime numbers between 1 and 500](https://github.com/T4H5iN/Data-Structure-Lab/blob/main/LAB1/Lab1a.cpp)**
+
 ## Lab 2 [29-01-2024]
 
 **[Find the sum of all given numbers, odd numbers and even numbers](https://github.com/T4H5iN/Data-Structure-Lab/blob/main/LAB2/Lab2a.cpp)**
