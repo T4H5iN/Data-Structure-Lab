@@ -25,6 +25,12 @@
 
 - **[Inserting an element at the beginning, at the middle and at the end in a given array](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class3a.cpp)**</details>
 
+## [01-02-2024]
+
+<details><summary>Thoery</summary>
+
+- **[Delete an element from a given array](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class4a.cpp)**</details>
+
 ## [05-02-2024]
 
 <details><summary>Lab</summary>
