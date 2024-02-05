@@ -2,7 +2,7 @@
 // Created by mdti0 on 2/5/2024.
 // Binary Search
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
