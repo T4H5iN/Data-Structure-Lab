@@ -9,7 +9,7 @@
 
 <details><summary>Thoery</summary>
 
-- **[Find GCD of all the given numbers](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class1a.cpp)</details>
+- **[Find GCD of all the given numbers](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class1a.cpp)**</details>
 
 ## [29-01-2024]
 
