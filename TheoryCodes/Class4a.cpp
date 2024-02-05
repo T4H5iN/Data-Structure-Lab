@@ -1,4 +1,4 @@
-// Data Structure Thory on 2/1/2024.
+// Data Structure Theory on 2/1/2024.
 // Created by mdti0 on 2/6/2024.
 // Delete
 
