@@ -37,3 +37,13 @@
 <details><summary>Lab</summary>
 
 - **[Given a sorted array of n (≤ 10^7) random integers and Q (≤ 10^5) queries. In each query, you are provided with a value of k. Now for each query, print the position of k in the array or "-1" if k is not present in the arrary. Record the number of iterations required to solve the problem.](https://github.com/T4H5iN/Data-Structures/blob/main/LAB3/Lab3a.cpp)**</details>
+
+<details><summary>Thoery</summary>
+
+- **[Implement selection sort algorithm.](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class5a.cpp)**</details>
+
+## [08-02-2024]
+
+<details><summary>Thoery</summary>
+
+- **[Implement bubble sort algorithm.](https://github.com/T4H5iN/Data-Structures/blob/main/TheoryCodes/Class6a.cpp)**</details>
