@@ -15,21 +15,20 @@ int main() {
     cin >> q;
     cout << "Enter array size: ";
     cin >> n;
-
-    int a[n];
+    int a[n + 1];
     cout << "Enter " << n << " numbers: ";
     for (i = 0; i < n; i++) {
         cin >> a[i];
     }
     cout << "Enter the number you want to insert: ";
     cin >> k;
-    n++;
+
     if (q == 1) {
-        for (i = n - 1; i >= 0; i--) {
-            a[i + 1] = a[i];
+        for (i = n; i > 0; i--) {
+            a[i] = a[i - 1];
         }
         a[0] = k;
-        for (i = 0; i < n; i++) {
+        for (i = 0; i <= n; i++) {
             cout << " " << a[i];
         }
     }
@@ -38,18 +37,18 @@ int main() {
         int pos;
         cout << "Enter the position you want to insert the number: ";
         cin >> pos;
-        for (i = n - 1; i >= pos; i--) {
-            a[i + 1] = a[i];
+        for (i = n; i > pos; i--) {
+            a[i] = a[i - 1];
         }
         a[pos] = k;
-        for (i = 0; i < n; i++) {
+        for (i = 0; i <= n; i++) {
             cout << " " << a[i];
         }
     }
 
     if (q == 3) {
-        a[n - 1] = k;
-        for (i = 0; i < n; i++) {
+        a[n] = k;
+        for (i = 0; i <= n; i++) {
             cout << " " << a[i];
         }
     }
