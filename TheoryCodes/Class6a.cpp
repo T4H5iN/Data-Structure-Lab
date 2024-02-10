@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    int n, i, step, minValue, minPos, firstPos;
+    int n, i, step;
     cout << "Enter array size: ";
     cin >> n;
     int a[n];
