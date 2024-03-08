@@ -24,14 +24,6 @@ struct student {
         cout << "\n";
         return cgpa;
     }
-
-    void info() {
-        cout << "Your Name is " << name << endl;
-        cout << "Your ID is " << id << endl;
-        cout << "Your age is " << age << endl;
-        cout << "Your cgpa is " << cgpa << endl;
-        cout << "\n";
-    }
 };
 
 int main() {
@@ -43,7 +35,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         cgpa = s.input();
         sum += cgpa;
-        s.info();
     }
     cout << "Average CGPA: " << sum / n << endl;
     return 0;
