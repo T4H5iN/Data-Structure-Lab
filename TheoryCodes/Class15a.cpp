@@ -52,7 +52,7 @@ int main() {
     }
 
     /*
-        Standalone condition to insert data at the end of the linked list.
+        Standalone condition to delete data from the end of the linked list.
 
         for (i = head; i->next != NULL; i = i->next) {
             prev_node = i;
