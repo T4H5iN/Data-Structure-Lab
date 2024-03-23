@@ -175,8 +175,19 @@
 ```
 
 ## Structure
-
-
+```cpp
+    struct student {
+        i// declare variables
+    
+        void input() {
+            // take input
+        }
+    
+        void give_introduction() {
+            // give output
+        }
+    };
+```
 
 ## Linked List
 
