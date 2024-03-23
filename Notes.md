@@ -79,9 +79,9 @@
     }
 ```
 ### 5. Sort
+#### Selection Sort
 <p align="center"><img src="https://codepumpkin.com/wp-content/uploads/2017/10/SelectionSort_Avg_case.gif"/></p>
 
-#### Selection Sort
 ```cpp
     for (step = 0; step < n - 1 ; step++) {
         firstPos = step;
@@ -109,7 +109,7 @@
     }
 ```
 #### Insertion Sort
-<p align="center"><img src="https://codepumpkin.com/wp-content/uploads/2017/10/BubbleSort_Avg_case.gif"/></p>
+<p align="center"><img src="https://miro.medium.com/v2/resize:fit:1012/1*JP-wURjwf4k23U2G3GNQDw.gif"/></p>
 
 ```cpp
     for (step = 1; step < n ; step++) {
@@ -128,6 +128,8 @@
 ## Recursion
 
 ### Factorial
+<p align="center"><img src="https://blog.penjee.com/wp-content/uploads/2016/05/factorial-code-animation.gif"/></p>
+
 ```cpp
     int factorial(int n) {
         if (n == 1)    return 1;
@@ -142,7 +144,9 @@
     }
 ```
 
-### Fibonacci 
+### Fibonacci
+<p align="center"><img src="https://www.mathwarehouse.com/programming/images/fibonacci-recursion-demonstration-animation-python.gif"/></p>
+
 ```cpp
     int fibonacci(int n) {
         if (n == 0)    return 0;
@@ -220,6 +224,8 @@
 ```
 
 ### Insert
+<p align="center"><img src="https://assets.digitalocean.com/articles/alligator/js/linked-lists-implementation/linked-list-insert.gif"/></p>
+
 ```cpp
     if (position == 1) {
         new_node->next = head;
@@ -243,6 +249,8 @@
 ```
 
 ### Delete
+<p align="center"><img src="https://assets.digitalocean.com/articles/alligator/js/linked-lists-implementation/linked-list-remove.gif"/></p>
+
 ```cpp
     if (position == 1) {
         temp = head;
