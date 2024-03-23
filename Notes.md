@@ -97,7 +97,7 @@
     }
 ```
 #### Bubble Sort
-<p align="center"><img src="https://codepumpkin.com/wp-content/uploads/2017/10/BubbleSort_Avg_case.gif"/></p>
+<p align="center"><img src="https://miro.medium.com/v2/resize:fit:1400/1*-qR66X2iwdcjhaqq10y9JQ.gif"/></p>
 
 ```cpp
     for (step = 1; step < n ; step++) {
