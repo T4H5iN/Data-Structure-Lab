@@ -57,6 +57,8 @@
     n--;
 ```
 ### 4. Search
+![binary-and-linear-search-animations](https://github.com/T4H5iN/Data-Structures/assets/77932280/d2728660-7e10-4cf0-b280-d06aa0bb9416)
+
 #### Linear Search
 ```cpp
     for (int i = 0 ; i < n ; i++) {
