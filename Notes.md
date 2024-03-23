@@ -189,9 +189,11 @@
 ```
 
 ## Structure
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/7e50db77-f684-45dd-a505-ea30d478b813"/></p>
+
 ```cpp
     struct student {
-        i// declare variables
+        // declare variables
     
         void input() {
             // take input
