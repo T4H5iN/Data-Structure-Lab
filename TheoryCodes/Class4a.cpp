@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    int n, i, d, p;
+    int n, i, d;
     cout << "Enter array size: ";
     cin >> n;
     int a[n];
@@ -15,18 +15,12 @@ int main() {
     for (i = 0; i < n; i++) {
         cin >> a[i];
     }
-    cout << "Enter the number you want to delete: ";
+    cout << "Enter the position of the array you want to delete: ";
     cin >> d;
-    for (i = 0; i < n; i++) {
-        if (d == a[i]) {
-            p = i;
-            for (i = p; i < n - 1; i++) {
-                a[i] = a[i + 1];
-            }
-            n--;
-            break;
-        }
+    for (i = d; i < n - 1; i++) {
+         a[i] = a[i + 1];
     }
+    n--;  
 
     for (i = 0; i < n; i++) {
         cout << " " << a[i];
