@@ -80,7 +80,7 @@
 ```
 ### 5. Sort
 #### Selection Sort
-<p align="center"><img src="https://codepumpkin.com/wp-content/uploads/2017/10/SelectionSort_Avg_case.gif"/></p>
+<p align="center"><img src="https://miro.medium.com/v2/resize:fit:1224/1*6StPgwLF96oEEYBeuJHxAQ.gif"/></p>
 
 ```cpp
     for (step = 0; step < n - 1 ; step++) {
