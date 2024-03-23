@@ -2,7 +2,7 @@
 
 ***Data Structure*** is the way of arranging data in computers main memory.
 
-![image](https://github.com/T4H5iN/Data-Structures/assets/77932280/597d9674-ea84-4125-bf09-a279c17e27c8)
+<p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg"/></p>
 
 **Operations to be performed on Data Structure:**
 
@@ -57,7 +57,7 @@
     n--;
 ```
 ### 4. Search
-![binary-and-linear-search-animations](https://github.com/T4H5iN/Data-Structures/assets/77932280/d2728660-7e10-4cf0-b280-d06aa0bb9416)
+<p align="center"><img src="https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif"/></p>
 
 #### Linear Search
 ```cpp
