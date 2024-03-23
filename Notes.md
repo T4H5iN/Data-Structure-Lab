@@ -141,6 +141,21 @@
     }
 ```
 
+### Power
+```cpp
+    int Power(int a, int b) {
+        if (b == 1){
+            return a;
+        }
+        if (b % 2 == 0) {
+            int pow = Power(a, b / 2);
+            return pow * pow;
+        } else if (b % 2 == 1) {
+            return (a * Power(a, b - 1));
+        }
+    }
+```
+
 ## Pointer
 ```cpp
     // 1 level integer pointer
