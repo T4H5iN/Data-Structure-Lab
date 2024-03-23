@@ -32,6 +32,8 @@
     }
 ```
 ### 2. Insert
+<p align="center"><img src="https://www.codesdope.com/staticroot/images/ds/intro5.gif"/></p>
+
 ```cpp
     a[n+1];
     // Insert at the beginning
@@ -77,6 +79,8 @@
     }
 ```
 ### 5. Sort
+<p align="center"><img src="https://codepumpkin.com/wp-content/uploads/2017/10/SelectionSort_Avg_case.gif"/></p>
+
 #### Selection Sort
 ```cpp
     for (step = 0; step < n - 1 ; step++) {
@@ -93,6 +97,8 @@
     }
 ```
 #### Bubble Sort
+<p align="center"><img src="https://codepumpkin.com/wp-content/uploads/2017/10/BubbleSort_Avg_case.gif"/></p>
+
 ```cpp
     for (step = 1; step < n ; step++) {
         for (i = 0; i < n - step; i++) {
@@ -103,6 +109,8 @@
     }
 ```
 #### Insertion Sort
+<p align="center"><img src="https://codepumpkin.com/wp-content/uploads/2017/10/BubbleSort_Avg_case.gif"/></p>
+
 ```cpp
     for (step = 1; step < n ; step++) {
         firstElement = a[step];
