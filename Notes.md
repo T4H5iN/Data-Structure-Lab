@@ -2,7 +2,7 @@
 
 ***Data Structure*** is the way of arranging data in computers main memory.
 
-<p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg"/></p>
+<p align="center"><img src="https://www.altexsoft.com/static/blog-post/2024/2/59771e86-6989-4a76-9695-1e572a24c2ed.png"/></p>
 
 **Operations to be performed on Data Structure:**
 
