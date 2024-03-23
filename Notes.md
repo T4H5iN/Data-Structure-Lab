@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 
 ***Data Structure*** is the way of arranging data in computers main memory.
 
