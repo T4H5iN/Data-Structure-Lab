@@ -2,7 +2,7 @@
 
 ***Data Structure*** is the way of arranging data in computers main memory.
 
-<p align="center"><img src="https://www.altexsoft.com/static/blog-post/2024/2/59771e86-6989-4a76-9695-1e572a24c2ed.png"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/16ed749f-71f4-4b90-9f7d-b0b29c9245ce"/></p>
 
 **Operations to be performed on Data Structure:**
 
@@ -32,7 +32,7 @@
     }
 ```
 ### 2. Insert
-<p align="center"><img src="https://www.codesdope.com/staticroot/images/ds/intro5.gif"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/0d9e9c73-e7b7-47dd-9792-97bed0e2bfca"/></p>
 
 ```cpp
     a[n+1];
@@ -59,7 +59,7 @@
     n--;
 ```
 ### 4. Search
-<p align="center"><img src="https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/7e26a85d-4c3c-4b90-88c7-dc033af00160"/></p>
 
 #### Linear Search
 ```cpp
@@ -80,7 +80,7 @@
 ```
 ### 5. Sort
 #### Selection Sort
-<p align="center"><img src="https://miro.medium.com/v2/resize:fit:1224/1*6StPgwLF96oEEYBeuJHxAQ.gif"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/304e9cd6-2eb4-4f82-a872-c05c75b9618b" /></p>
 
 ```cpp
     for (step = 0; step < n - 1 ; step++) {
@@ -97,7 +97,7 @@
     }
 ```
 #### Bubble Sort
-<p align="center"><img src="https://miro.medium.com/v2/resize:fit:1400/1*-qR66X2iwdcjhaqq10y9JQ.gif"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/7ecc819e-d9a2-497a-b08b-00dbbc89c707"/></p>
 
 ```cpp
     for (step = 1; step < n ; step++) {
@@ -109,7 +109,7 @@
     }
 ```
 #### Insertion Sort
-<p align="center"><img src="https://miro.medium.com/v2/resize:fit:1012/1*JP-wURjwf4k23U2G3GNQDw.gif"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/891485f3-fcf3-4f82-89a8-965226a600c3"/></p>
 
 ```cpp
     for (step = 1; step < n ; step++) {
@@ -128,7 +128,7 @@
 ## Recursion
 
 ### Factorial
-<p align="center"><img src="https://blog.penjee.com/wp-content/uploads/2016/05/factorial-code-animation.gif"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/04de64ad-295f-4271-ab54-21a14b0f7656"/></p>
 
 ```cpp
     int factorial(int n) {
@@ -145,7 +145,7 @@
 ```
 
 ### Fibonacci
-<p align="center"><img src="https://www.mathwarehouse.com/programming/images/fibonacci-recursion-demonstration-animation-python.gif"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/dd14990d-9f28-4bf6-84fa-22817fd15beb"/></p>
 
 ```cpp
     int fibonacci(int n) {
@@ -224,7 +224,7 @@
 ```
 
 ### 2. Insert
-<p align="center"><img src="https://assets.digitalocean.com/articles/alligator/js/linked-lists-implementation/linked-list-insert.gif"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/a1189f46-a268-4b65-b71c-867aa2533a10"/></p>
 
 ```cpp
     if (position == 1) {
@@ -249,7 +249,8 @@
 ```
 
 ### 3. Delete
-<p align="center"><img src="https://assets.digitalocean.com/articles/alligator/js/linked-lists-implementation/linked-list-remove.gif"/></p>
+<p align="center"><img src="https://github.com/T4H5iN/Data-Structures/assets/77932280/8c90c075-eaa7-48cf-8b60-207e6b38cde9"/></p>
+
 
 ```cpp
     if (position == 1) {
