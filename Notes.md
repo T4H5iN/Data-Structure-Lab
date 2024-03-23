@@ -205,7 +205,7 @@
 
 ## Linked List Data Structure
 
-### Traverse
+### 1. Traverse
 ```cpp
     head->data = x;
     prev_node = head;
@@ -223,7 +223,7 @@
     }
 ```
 
-### Insert
+### 2. Insert
 <p align="center"><img src="https://assets.digitalocean.com/articles/alligator/js/linked-lists-implementation/linked-list-insert.gif"/></p>
 
 ```cpp
@@ -248,7 +248,7 @@
     */
 ```
 
-### Delete
+### 3. Delete
 <p align="center"><img src="https://assets.digitalocean.com/articles/alligator/js/linked-lists-implementation/linked-list-remove.gif"/></p>
 
 ```cpp
