@@ -203,7 +203,7 @@
     };
 ```
 
-## Linked List
+## Linked List Data Structure
 
 ### Traverse
 ```cpp
