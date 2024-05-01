@@ -36,6 +36,7 @@ int main() {
     cin >> position;
     if (position == 1) {
         temp = head;
+        //head->data;
         head = head->next;
         delete temp;
     }

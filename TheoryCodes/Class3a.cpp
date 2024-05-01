@@ -28,6 +28,9 @@ int main() {
             a[i] = a[i - 1];
         }
         a[0] = k;
+        for (i = 0; i <= n; i++) {
+            cout << " " << a[i];
+        }
     }
 
     if (q == 2) {
@@ -38,15 +41,17 @@ int main() {
             a[i] = a[i - 1];
         }
         a[pos] = k;
+        for (i = 0; i <= n; i++) {
+            cout << " " << a[i];
+        }
     }
 
     if (q == 3) {
         a[n] = k;
+        for (i = 0; i <= n; i++) {
+            cout << " " << a[i];
+        }
     }
-    
-    for (i = 0; i <= n; i++) {
-        cout << " " << a[i];
-    }
-    
+
     return 0;
 }

@@ -1,6 +1,6 @@
 // Data Structure LAB on 2/5/2024.
 // Created by mdti0 on 2/5/2024.
-// Binary Search sorted in ascending order
+// Binary Search
 
 #include <bits/stdc++.h>
 
