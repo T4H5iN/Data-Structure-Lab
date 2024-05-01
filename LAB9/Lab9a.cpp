@@ -17,12 +17,12 @@ int main() {
         cin >> x;
         Basket.push(x);
     }
-    cout << "\nTop element is " << Basket.top();
-    if (Basket.empty()) {
-        cout << "\nBasket is now empty" << endl;
-    } else {
-        cout << "\nBasket is now full" << endl;
+    cout << "The size of the stack is " << Basket.size() << endl;
+    cout << "Top element of the stack is " << Basket.top() << endl;
+    if (!Basket.empty()) {
+        cout << "Basket is now full" << endl;
     }
+    cout << "The elements in the stack are: ";
     while (!Basket.empty()) {
         int top_element = Basket.top();
         cout << top_element << " ";
@@ -30,8 +30,6 @@ int main() {
     }
     if (Basket.empty()) {
         cout << "\nBasket is now empty" << endl;
-    } else {
-        cout << "\nBasket is now full" << endl;
     }
     return 0;
 }
