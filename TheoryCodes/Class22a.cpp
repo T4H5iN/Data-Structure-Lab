@@ -4,7 +4,6 @@
 
 #include <iostream>
 
-#define M (10<<4)
 using namespace std;
 
 int main() {
@@ -27,7 +26,7 @@ int main() {
     cout << "The adjacency matrix is: " << endl;
     for (int i = 0; i <= M; i++) {
         for (int j = 0; j <= M; j++) {
-            cout << "[" << G[i][j] << "] ";
+            cout << G[i][j];
         }
         cout << endl;
     }
