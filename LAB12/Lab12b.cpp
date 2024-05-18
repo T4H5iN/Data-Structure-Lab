@@ -15,11 +15,9 @@ int main(){
     for(int u=0;u<=M;u++){
         int l=G[u].size();
         for(int i=0;i<=l-1;i++){
-            cout<<"(";
-            cout<<G[u][i].first<<" ";
-        cout<<G[u][i].second<<")";
+            cout<<G[u][i].first;
+            cout<<G[u][i].second;
         }
-    cout<<endl;
     }
 }
 
