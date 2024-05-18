@@ -17,6 +17,5 @@ int main(){
         for(int i=0;i<=l-1;i++){
             cout<<G[u][i]<<" ";
         }
-        cout<<endl;
     }
 }
