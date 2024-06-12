@@ -1,21 +1,31 @@
+// Data Structure LAB on 5/13/2024.
+// Created by mdti0 on 5/18/2024.
+// Undirected-Unweighted Graph
+
 #include<iostream>
 #include<vector>
+
+#define M (10<<7)
 using namespace std;
 
-int main(){
-    vector<int> G[M+1];
+int main() {
+    vector<int> G[M + 1];
     int ne;
-    cin>>ne;
-    for (int i=1;i<=ne;i++){
-        int u,v;
-        cin>>u>>v;
+    cout << "Enter number of edges: ";
+    cin >> ne;
+    cout << "Enter the edges:" << endl;
+    for (int i = 1; i <= ne; i++) {
+        int u, v;
+        cin >> u >> v;
         G[u].push_back(v);
         G[v].push_back(u);
     }
-    for(int u=0;u<=M;u++){
-        int l=G[u].size();
-        for(int i=0;i<=l-1;i++){
-            cout<<G[u][i]<<" ";
+    cout << "The adjacency list is: " << endl;
+    for (int u = 0; u <= M; u++) {
+        for (int i = 0; i < G[u].size(); i++) {
+            cout << G[u][i] << " ";
         }
+        cout << endl;
     }
 }
+

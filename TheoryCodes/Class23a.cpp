@@ -5,6 +5,7 @@
 #include <iostream>
 
 #define inf (1<<31)-1
+#define M (10<<4)
 using namespace std;
 
 int main() {
@@ -19,15 +20,23 @@ int main() {
         }
     }
     int ne;
+    cout << "Enter the number of edges: ";
     cin >> ne;
+    cout << "Enter the edges:" << endl;
     for (int i = 1; i <= ne; i++) {
         int u, v, w;
         cin >> u >> v >> w;
         G[u][v] = w;
     }
+    cout << "The adjacency matrix is: " << endl;
     for (int i = 0; i <= M; i++) {
         for (int j = 0; j <= M; j++) {
-                cout << G[i][j];
+            if (G[i][j] == inf) {
+                cout << "inf ";
+            } else {
+                cout << "[" << G[i][j] << "] ";
+            }
         }
+        cout << endl;
     }
 }

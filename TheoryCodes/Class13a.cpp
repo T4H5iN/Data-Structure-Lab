@@ -19,9 +19,6 @@ int main() {
     int n, flag = 0;
     cout << "Enter the number of input: ";
     cin >> n;
-    int y;
-    cout << "Enter the number you seek: ";
-    cin >> y;
     node *head, *i, *prev_node;
     head = new node;
     int x;
@@ -37,6 +34,9 @@ int main() {
         prev_node->next = new_node;
         prev_node = new_node;
     }
+    int y;
+    cout << "Enter the number you seek: ";
+    cin >> y;
     for (i = head; i != NULL; i = i->next) {
         if (i->data == y) {
             flag = 1;

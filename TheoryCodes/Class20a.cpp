@@ -7,9 +7,8 @@
 using namespace std;
 
 int front = -1, rear = -1, n;
-Queue[n];
 
-void enqueue(int x) {
+void enqueue(int x, int Queue[]) {
     if ((rear + 1) % n == front) {
         cout << "Overflow Condition: Queue Full" << endl;
         return;
@@ -52,7 +51,7 @@ void qsize() {
     }
 }
 
-void traverse() {
+void traverse(int Queue[]) {
     if (front == -1 && rear == -1) {
         cout << "Queue is empty" << endl;
         return;
@@ -66,11 +65,54 @@ void traverse() {
     }
 }
 
-void front_rear() {
+void front_rear(int Queue[]) {
     if (front == -1 && rear == -1) {
         cout << "Queue is empty" << endl;
     } else {
         cout << "Front element: " << Queue[front] << endl;
         cout << "Rear element: " << Queue[rear] << endl;
     }
+}
+
+int main() {
+    cout << "Enter the size of the queue: ";
+    cin >> n;
+    int Queue[n];
+    int choice = 0, value;
+    cout << "\n1. Enqueue" << endl;
+    cout << "2. Dequeue" << endl;
+    cout << "3. Display Front and Rear" << endl;
+    cout << "4. Display Queue" << endl;
+    cout << "5. Check if Queue is Empty" << endl;
+    cout << "6. Get Queue Size\n";
+
+    while (choice != 7) {
+        cout << "\nEnter your choice: ";
+        cin >> choice;
+        switch (choice) {
+            case 1:
+                cout << "Enter the value to enqueue: ";
+                cin >> value;
+                enqueue(value, Queue);
+                break;
+            case 2:
+                dequeue();
+                break;
+            case 3:
+                front_rear(Queue);
+                break;
+            case 4:
+                traverse(Queue);
+                break;
+            case 5:
+                isEmpty();
+                break;
+            case 6:
+                qsize();
+                break;
+            default:
+                cout << "Invalid choice. Please try again.\n";
+        }
+    }
+    return 0;
 }

@@ -1,52 +1,105 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
-struct student{
+struct student {
     string name;
     int id;
-    double cgpa;
-    double age;
+    double cgpa, age;
+
+    student(string n, int i, double c, double a) {
+        name = n;
+        id = i;
+        cgpa = c;
+        age = a;
+    }
 };
 
 struct node {
-    int data;
+    student data;
     node *next;
 
-    node() {
+    node(student s) {
+        data = s;
         next = NULL;
     }
 };
 
 int main() {
-    int n, flag = 0;
-    cout << "Enter the number of input: ";
+    int n;
+    cout << "Enter the number of students: ";
     cin >> n;
-    int y;
-    cout << "Enter the number you seek: ";
-    cin >> y;
-    node *head, *i, *prev_node;
-    head = new node;
-    int x;
-    cout << "Enter numbers: ";
-    cin >> x;
-    head->data = x;
-    prev_node = head;
-    for (int j = 2; j <= n; j++) {
-        cin >> x;
-        node *new_node;
-        new_node = new node;
-        new_node->data = x;
-        prev_node->next = new_node;
-        prev_node = new_node;
-    }
-    for (i = head; i != NULL; i = i->next) {
-        if (i->data == y) {
-            flag = 1;
+
+    node *head = NULL;
+    cout << "Enter student information (name, id, cgpa, age):" << endl;
+    for (int i = 0; i < n; i++) {
+        string name;
+        int id;
+        double cgpa, age;
+        cin >> name >> id >> cgpa >> age;
+        student newStudent(name, id, cgpa, age);
+        node *newNode = new node(newStudent);
+        if (!head) {
+            head = newNode;
+        } else {
+            node *temp = head;
+            while (temp->next) {
+                temp = temp->next;
+            }
+            temp->next = newNode;
         }
     }
-    if (flag == 1) {
-        cout << "Found" << endl;
-    } else {
-        cout << "Not Found" << endl;
+
+    double totalCGPA = 0.0;
+    int count = 0;
+    node *temp = head;
+    while (temp) {
+        totalCGPA += temp->data.cgpa;
+        count++;
+        temp = temp->next;
     }
+    double averageCGPA = (count == 0) ? 0.0 : totalCGPA / count;
+    cout << "Average CGPA of the class: " << fixed << setprecision(2) << averageCGPA << endl;
+
+    cout << "Student information:" << endl;
+    temp = head;
+    while (temp) {
+        cout << "Name: " << temp->data.name << ", ID: " << temp->data.id
+             << ", CGPA: " << temp->data.cgpa << ", Age: " << temp->data.age << endl;
+        temp = temp->next;
+    }
+
+    cout << "Enter new student information (name, id, cgpa, age):" << endl;
+    string newName;
+    int newId;
+    double newCGPA, newAge;
+    cin >> newName >> newId >> newCGPA >> newAge;
+    student newStudent(newName, newId, newCGPA, newAge);
+    node *newNode = new node(newStudent);
+    if (!head) {
+        head = newNode;
+    } else {
+        node *temp = head;
+        while (temp->next) {
+            temp = temp->next;
+        }
+        temp->next = newNode;
+    }
+
+    cout << "Updated student information:" << endl;
+    temp = head;
+    while (temp) {
+        cout << "Name: " << temp->data.name << ", ID: " << temp->data.id
+             << ", CGPA: " << temp->data.cgpa << ", Age: " << temp->data.age << endl;
+        temp = temp->next;
+    }
+
+    temp = head;
+    while (temp) {
+        node *toDelete = temp;
+        temp = temp->next;
+        delete toDelete;
+    }
+
+    return 0;
 }
