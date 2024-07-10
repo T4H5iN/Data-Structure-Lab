@@ -1,3 +1,35 @@
+//Create Linked List
+
+struct node {
+    int data;
+    node *next;
+
+    node() {
+        next = NULL;
+    }
+};
+
+    int n, flag = 0;
+    cin >> n;
+    node *head, *i, *prev_node;
+    head = new node;
+    int x;
+    cin >> x;
+    head->data = x;
+    prev_node = head;
+    for (int j = 2; j <= n; j++) {
+        cin >> x;
+        node *new_node;
+        new_node = new node;
+        new_node->data = x;
+        prev_node->next = new_node;
+        prev_node = new_node;
+    }
+
+    for (i = head; i != NULL; i = i->next) {
+        cout << i->data;
+    }
+
 //Stack STL
 
 stack<int> Basket;
