@@ -1,3 +1,20 @@
+//Stack STL
+
+stack<int> Basket;
+int n, x;
+cin >> n;
+for (int i = 1; i <= n; i++) {
+    cin >> x;
+    Basket.push(x);
+}
+cout << Basket.size();
+cout << Basket.top();
+while (!Basket.empty()) {
+    int top_element = Basket.top();
+    cout << top_element;
+    Basket.pop();
+}
+
 //Circular Queue
 
 int Queue[n];
