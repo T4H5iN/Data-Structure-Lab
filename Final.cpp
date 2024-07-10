@@ -1,6 +1,9 @@
 //Circular Queue
 
-void enqueue(int x, int Queue[]) {
+int Queue[n];
+int front = rear = -1;
+void enqueue(int x) {
+    //if (rear == n - 1)
     if ((rear + 1) % n == front) {
         cout << "Overflow Condition: Queue Full" << endl;
         return;
@@ -8,6 +11,7 @@ void enqueue(int x, int Queue[]) {
         front = rear = 0;
         Queue[rear] = x;
     } else {
+        //rear++
         rear = (rear + 1) % n;
         Queue[rear] = x;
     }
@@ -20,6 +24,7 @@ void dequeue() {
     } else if (front == rear) {
         front = rear = -1;
     } else {
+        //front++
         front = (front + 1) % n;
     }
 }
