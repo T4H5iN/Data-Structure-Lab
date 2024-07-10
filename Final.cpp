@@ -1,3 +1,29 @@
+//Circular Queue
+
+void enqueue(int x, int Queue[]) {
+    if ((rear + 1) % n == front) {
+        cout << "Overflow Condition: Queue Full" << endl;
+        return;
+    } else if (front == -1 && rear == -1) {
+        front = rear = 0;
+        Queue[rear] = x;
+    } else {
+        rear = (rear + 1) % n;
+        Queue[rear] = x;
+    }
+}
+
+void dequeue() {
+    if (front == -1 && rear == -1) {
+        cout << "Underflow Condition: Queue Empty" << endl;
+        return;
+    } else if (front == rear) {
+        front = rear = -1;
+    } else {
+        front = (front + 1) % n;
+    }
+}
+
 // Adjacency Matrix Directed-Weighted Graph
 
 int G[M + 1][M + 1];
