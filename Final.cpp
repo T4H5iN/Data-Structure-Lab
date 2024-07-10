@@ -30,6 +30,60 @@ struct node {
         cout << i->data;
     }
 
+// Insert Linked List
+    node *new_node;
+    new_node = new node;
+    new_node->data = x;
+    if (position == 1) {
+        new_node->next = head;
+        head = new_node;
+    }
+    if (position > 1) {
+        i = head;
+        for (int k = 1; k < position - 1; k++) {
+            i = i->next;
+        }
+        new_node->next = i->next;
+        i->next = new_node;
+    }
+
+    /*
+        Standalone condition to insert data at the end of the linked list.
+
+        for (i = head; i->next != NULL; i = i->next) {}
+        i->next = new_node;
+    */
+
+//Delete Linked List
+    node *new_node;
+    new_node = new node;
+    new_node->data = x;
+    if (position == 1) {
+        temp = head;
+        head = head->next;
+        delete temp;
+    }
+    if (position > 1) {
+        i = head;
+        for (int k = 1; k <= position - 1; k++) {
+            prev_node = i;
+            i = i->next;
+        }
+        next_node = i->next;
+        prev_node->next = next_node;
+        delete i;
+    }
+
+    /*
+        Standalone condition to delete data from the end of the linked list.
+
+        for (i = head; i->next != NULL; i = i->next) {
+            prev_node = i;
+        }
+        prev_node->next = NULL;
+        delete i;
+    */
+
 //Stack STL
 
 stack<int> Basket;
